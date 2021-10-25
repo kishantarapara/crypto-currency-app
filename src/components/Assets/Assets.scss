@@ -1,0 +1,40 @@
+.assets-page {
+  padding: 20px;
+
+  &__crypto-logo {
+    height: 30px;
+  }
+
+  &__green-text {
+    color: #04a504;
+  }
+
+  &__red-text {
+    color: #ff0000;
+  }
+
+  &__secondery-text {
+    color: #808080;
+    font-size: 12px;
+  }
+
+  &__search-box {
+    margin: 20px 0px;
+    width: 400px;
+  }
+
+  &__search-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ant-table-thead > tr > th {
+    background-color: #acc1eb;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .ant-table-tbody > tr > td {
+    padding: 0px 16px;
+  }
+}
